@@ -9,5 +9,13 @@ public class Main {
             System.out.println("Месяц " + i + " сумма накоплений равна " + sum);
             }
         }
+        // Задание 4
+        int i = 7;
+        while (i <= 31) {
+            if (i % 7 == 0) {
+                System.out.println("Сегодня " + i + "-е число. Необходимо подготовить отчет");
+            }
+            i++;
+        }
     }
 }
