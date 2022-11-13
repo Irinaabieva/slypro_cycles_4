@@ -20,5 +20,14 @@ public class Main {
         for (number = 10; number >= 1; number--){
             System.out.print(number + " ");
         }
+        //Задание 3
+        int population = 12_000_000;
+        int bornInYear = 17;
+        int mortalityInYear = 8;
+        int diff = bornInYear - mortalityInYear;
+        for (int year = 1; year <= 10; year++) {
+            population += population * diff/1000;
+            System.out.println("Год " + year + " численность населения составляет " + population);
+        }
     }
 }
